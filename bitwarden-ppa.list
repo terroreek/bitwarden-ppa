@@ -1,1 +1,0 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/my_ppa.gpg] https://terroreek.github.io/bitwarden-ppa ./
