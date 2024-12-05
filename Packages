@@ -1,3 +1,40 @@
+Package: appimagelauncher
+Version: 2.2.0-travis995~0f91801+bionic
+Architecture: amd64
+Maintainer: TheAssassin
+Installed-Size: 45192
+Depends: libc6 (>= 2.27), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: ./pool/appimage-launcher/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb
+Size: 5915004
+MD5sum: 9c5454ff246bf03f7b4b981afbe8a63a
+SHA1: 2f7d4ad08c95ec5c599dd52a80eb984854283c34
+SHA256: f4b9db56a6ba7dd091074b14157612986a9f6a0cb3fcd230abfc8f4555c70a7f
+Section: devel
+Priority: optional
+Description: AppImageLauncher built using CMake
+
+Package: balena-etcher
+Version: 1.19.25
+Architecture: amd64
+Maintainer: Balena Ltd. <hello@balena.io>
+Installed-Size: 396640
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, liblzma5, libnspr4, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: ./pool/etcher/balena-etcher_1.19.25_amd64.deb
+Size: 110309172
+MD5sum: e96e9a36042285b8bac84f4acde96600
+SHA1: c06d33a542958571378893760bf150945236ef25
+SHA256: 00e7334b88bfdb492277f3c0db03b83f53593573aae6bbe0102a0ecd1dcc1b3e
+Section: utils
+Priority: optional
+Homepage: https://github.com/balena-io/etcher
+Description: Flash OS images to SD cards and USB drives, safely and easily.
+ Etcher is a powerful OS image flasher built with web technologies to ensure
+ flashing an SDCard or USB drive is a pleasant and safe experience. It protects
+ you from accidentally writing to your hard-drives, ensures every byte of data
+ was written correctly and much more.
+
 Package: bitwarden
 Version: 2024.11.2
 Architecture: amd64
@@ -33,6 +70,25 @@ Section: utils
 Priority: optional
 Description: Mouse and keyboard sharing utility
  Mouse and keyboard sharing utility
+
+Package: localsend
+Version: 1.16.1+56
+Architecture: amd64
+Essential: no
+Maintainer: Tienisto <dev.tien.donam@gmail.com>
+Installed-Size: 30600
+Pre-Depends: libc6 (>= 2.31)
+Depends: libappindicator3-1 | libayatana-appindicator3-1, gir1.2-appindicator3-0.1 | gir1.2-ayatanaappindicator3-0.1, libayatana-ido3-0.4-0, xdg-user-dirs
+Filename: ./pool/localsend/LocalSend-1.16.1-linux-x86-64.deb
+Size: 11804928
+MD5sum: 4d7ae508411362e86a6929ee7cfbe8fe
+SHA1: c15a1b01b41b2968419666f6ad5d62c9d4fdb32a
+SHA256: f4d15526b8321761f3eb99ac6314c25ec79e1bb1397b329c40de05ef2bd4019a
+Section: x11
+Priority: optional
+Homepage: https://localsend.org/
+Description: An open source cross-platform alternative to AirDrop
+Uploaders: TheGB0077 <gb.lima.dev@gmail.com>
 
 Package: obsidian
 Version: 1.7.7
