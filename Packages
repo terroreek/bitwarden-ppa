@@ -18,3 +18,23 @@ Description: A secure and free password manager for all of your devices.
 License: GPL-3.0
 Vendor: Bitwarden Inc. <hello@bitwarden.com>
 
+Package: obsidian
+Version: 1.7.7
+Architecture: amd64
+Maintainer: Dynalist Inc.
+Installed-Size: 294395
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./pool/obsidian/obsidian_1.7.7_amd64.deb
+Size: 81043738
+MD5sum: 3f5420bddb669d53362d262a96b5c98d
+SHA1: 6d11315b26d2b684ffe3a1097e340d54b31c89c3
+SHA256: e41269fa5f120612cb8ba3cbb8a22b1d5c5d9969c4e9b2f9f802fd0141de6a89
+Section: default
+Priority: optional
+Homepage: https://obsidian.md
+Description:
+  Obsidian
+License: UNLICENSED
+Vendor: Dynalist Inc.
+
