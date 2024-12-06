@@ -1,0 +1,132 @@
+Package: appimagelauncher
+Version: 2.2.0-travis995~0f91801+bionic
+Architecture: amd64
+Maintainer: TheAssassin
+Installed-Size: 45192
+Depends: libc6 (>= 2.27), libcairo2 (>= 1.2.4), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: ./pool/appimage-launcher/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb
+Size: 5915004
+MD5sum: 9c5454ff246bf03f7b4b981afbe8a63a
+SHA1: 2f7d4ad08c95ec5c599dd52a80eb984854283c34
+SHA256: f4b9db56a6ba7dd091074b14157612986a9f6a0cb3fcd230abfc8f4555c70a7f
+Section: devel
+Priority: optional
+Description: AppImageLauncher built using CMake
+
+Package: balena-etcher
+Version: 1.19.25
+Architecture: amd64
+Maintainer: Balena Ltd. <hello@balena.io>
+Installed-Size: 396640
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, liblzma5, libnspr4, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: ./pool/etcher/balena-etcher_1.19.25_amd64.deb
+Size: 110309172
+MD5sum: e96e9a36042285b8bac84f4acde96600
+SHA1: c06d33a542958571378893760bf150945236ef25
+SHA256: 00e7334b88bfdb492277f3c0db03b83f53593573aae6bbe0102a0ecd1dcc1b3e
+Section: utils
+Priority: optional
+Homepage: https://github.com/balena-io/etcher
+Description: Flash OS images to SD cards and USB drives, safely and easily.
+ Etcher is a powerful OS image flasher built with web technologies to ensure
+ flashing an SDCard or USB drive is a pleasant and safe experience. It protects
+ you from accidentally writing to your hard-drives, ensures every byte of data
+ was written correctly and much more.
+
+Package: bitwarden
+Version: 2024.11.2
+Architecture: amd64
+Maintainer: Bitwarden Inc. <hello@bitwarden.com>
+Installed-Size: 316193
+Depends: libnotify4, libxtst6, libnss3, libsecret-1-0, libxss1
+Recommends: libappindicator3-1
+Filename: ./pool/bitwarden/Bitwarden-2024.11.2-amd64.deb
+Size: 84510298
+MD5sum: cfef7c2fb1c3d57c4f0e2eea17fff004
+SHA1: 469540ee195657e75d0e819ac89fb55192cee674
+SHA256: 004918035a6667efa8a4db84788ea9f6b334f8b2f41684f186baf3f0ec64ef1d
+Section: default
+Priority: optional
+Homepage: https://bitwarden.com
+Description: A secure and free password manager for all of your devices.
+  A secure and free password manager for all of your devices.
+License: GPL-3.0
+Vendor: Bitwarden Inc. <hello@bitwarden.com>
+
+Package: deskflow
+Version: 1.17.2.0
+Architecture: amd64
+Maintainer: Deskflow <maintainers@deskflow.org>
+Installed-Size: 4355
+Depends: qt6-qpa-plugins, libc6 (>= 2.38), libei1 (>= 1.0.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.28.0), libnotify4 (>= 0.7.0), libportal1 (>= 0.8.0), libpugixml1v5 (>= 1.4), libqt6core6t64 (>= 6.7.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.7.2), libqt6network6 (>= 6.4.0), libqt6widgets6 (>= 6.7.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtomlplusplus3t64 (>= 3.2.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 1.0.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, libxtst6
+Filename: ./pool/deskflow/deskflow-1.17.2-debian-trixie-x86_64.deb
+Size: 1710486
+MD5sum: 9c76f9c75003d0754d7570b529e6cbac
+SHA1: 2a7ddcfd61a425205c044e4c72572efc2ee50314
+SHA256: b5161afd0277e56b0ce79d149febd46bf3e180036f56838a1deb4a4f1ed3c4bb
+Section: utils
+Priority: optional
+Description: Mouse and keyboard sharing utility
+ Mouse and keyboard sharing utility
+
+Package: localsend
+Version: 1.16.1+56
+Architecture: amd64
+Essential: no
+Maintainer: Tienisto <dev.tien.donam@gmail.com>
+Installed-Size: 30600
+Pre-Depends: libc6 (>= 2.31)
+Depends: libappindicator3-1 | libayatana-appindicator3-1, gir1.2-appindicator3-0.1 | gir1.2-ayatanaappindicator3-0.1, libayatana-ido3-0.4-0, xdg-user-dirs
+Filename: ./pool/localsend/LocalSend-1.16.1-linux-x86-64.deb
+Size: 11804928
+MD5sum: 4d7ae508411362e86a6929ee7cfbe8fe
+SHA1: c15a1b01b41b2968419666f6ad5d62c9d4fdb32a
+SHA256: f4d15526b8321761f3eb99ac6314c25ec79e1bb1397b329c40de05ef2bd4019a
+Section: x11
+Priority: optional
+Homepage: https://localsend.org/
+Description: An open source cross-platform alternative to AirDrop
+Uploaders: TheGB0077 <gb.lima.dev@gmail.com>
+
+Package: obsidian
+Version: 1.7.7
+Architecture: amd64
+Maintainer: Dynalist Inc.
+Installed-Size: 294395
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./pool/obsidian/obsidian_1.7.7_amd64.deb
+Size: 81043738
+MD5sum: 3f5420bddb669d53362d262a96b5c98d
+SHA1: 6d11315b26d2b684ffe3a1097e340d54b31c89c3
+SHA256: e41269fa5f120612cb8ba3cbb8a22b1d5c5d9969c4e9b2f9f802fd0141de6a89
+Section: default
+Priority: optional
+Homepage: https://obsidian.md
+Description:
+  Obsidian
+License: UNLICENSED
+Vendor: Dynalist Inc.
+
+Package: via-nativia
+Version: 3.0.0
+Architecture: amd64
+Maintainer: Olivia <ofbriggs@gmail.com>
+Installed-Size: 235577
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: ./pool/via/via-3.0.0-linux.deb
+Size: 67767494
+MD5sum: 953d64c87b53095d439bd1b1e4df97d0
+SHA1: 76a5b41e0919a9be665b43f2708a0a55ac993ccc
+SHA256: 30b2486e91f3162c4636f23a75bd82216f0961ba147017f3385f87b85453e651
+Section: default
+Priority: optional
+Homepage: https://github.com/the-via/nativia
+Description:
+  Yet another keyboard configurator
+License: GPL-3.0-or-later
+Vendor: Olivia <ofbriggs@gmail.com>
+
