@@ -53,6 +53,26 @@ Description: A secure and free password manager for all of your devices.
 License: GPL-3.0
 Vendor: Bitwarden Inc. <hello@bitwarden.com>
 
+Package: bitwarden
+Version: 2024.12.1
+Architecture: amd64
+Maintainer: Bitwarden Inc. <hello@bitwarden.com>
+Installed-Size: 317707
+Depends: libnotify4, libxtst6, libnss3, libsecret-1-0, libxss1
+Recommends: libappindicator3-1
+Filename: ./pool/bitwarden/Bitwarden-2024.12.1-amd64.deb
+Size: 40346749
+MD5sum: 4f79f721caa49d43d82075f848efb75c
+SHA1: b1195d477bbdb2aba729c14eae922d279da54316
+SHA256: 45ba931110b900cdd153a43d00235f4a483f4ed01e9dac1523c00aaa338cd8cf
+Section: default
+Priority: optional
+Homepage: https://bitwarden.com
+Description: A secure and free password manager for all of your devices.
+  A secure and free password manager for all of your devices.
+License: GPL-3.0
+Vendor: Bitwarden Inc. <hello@bitwarden.com>
+
 Package: deskflow
 Version: 1.17.2.0
 Architecture: amd64
